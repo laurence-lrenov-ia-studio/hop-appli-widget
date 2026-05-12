@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Installer HOP</title>
+
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="logo.jpg">
+  <meta name="theme-color" content="#0b3d2e">
+
+  <style>
+    :root{--green:#0b3d2e;--white:#ffffff;}
+    *{box-sizing:border-box}
+    body{
+      margin:0;min-height:100vh;font-family:Arial,sans-serif;
+      background:radial-gradient(circle at top,rgba(255,255,255,.20),transparent 35%),linear-gradient(135deg,var(--green),#03130d);
+      color:var(--white);display:flex;align-items:center;justify-content:center;padding:24px;
+    }
+    .app-card{
+      width:100%;max-width:430px;background:rgba(255,255,255,.10);
+      border:1px solid rgba(255,255,255,.18);border-radius:28px;padding:26px;text-align:center;
+      box-shadow:0 24px 60px rgba(0,0,0,.35);backdrop-filter:blur(14px);
+    }
+    .logo{
+      width:142px;height:142px;object-fit:cover;border-radius:34px;background:white;padding:8px;
+      box-shadow:0 14px 34px rgba(0,0,0,.35);margin-bottom:18px;
+    }
+    h1{margin:0 0 8px;font-size:30px;line-height:1.1}
+    p{margin:0 auto 22px;opacity:.88;line-height:1.45;max-width:330px}
+    .button{
+      display:inline-flex;align-items:center;justify-content:center;width:100%;min-height:56px;
+      border-radius:18px;background:var(--white);color:var(--green);font-weight:800;text-decoration:none;
+      box-shadow:0 12px 28px rgba(0,0,0,.28);margin-bottom:14px;
+    }
+    .steps{text-align:left;background:rgba(255,255,255,.10);border-radius:18px;padding:16px;font-size:14px;line-height:1.45}
+    .steps strong{display:block;margin-bottom:6px}
+    .note{margin-top:16px;font-size:13px;opacity:.78}
+  </style>
+</head>
+
+<body>
+  <main class="app-card">
+    <img src="logo.jpg" alt="Logo HOP" class="logo">
+    <h1>Installer HOP</h1>
+    <p>Ajoute l’accès HOP sur ton écran d’accueil pour ouvrir l’application comme une vraie appli.</p>
+    <a class="button" href="https://REMPLACER-PAR-LE-LIEN-DE-L-APPLICATION-HOP">Ouvrir l’application HOP</a>
+    <div class="steps">
+      <strong>Installation rapide</strong>
+      iPhone : ouvrir avec Safari → Partager → Sur l’écran d’accueil.<br>
+      Android : ouvrir avec Chrome → Menu ⋮ → Ajouter à l’écran d’accueil.
+    </div>
+    <div class="note">À faire avant diffusion : remplacer l’URL HOP dans index.html et manifest.json.</div>
+  </main>
+</body>
+</html>
