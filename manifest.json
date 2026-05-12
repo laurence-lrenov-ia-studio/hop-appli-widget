@@ -2,7 +2,7 @@
   "name": "HOP",
   "short_name": "HOP",
   "description": "Accès rapide à l'application HOP",
-  "start_url": "https://REMPLACER-PAR-LE-LIEN-DE-L-APPLICATION-HOP",
+  "start_url": "https://laurence-lrenov-ia-studio.github.io/hop-blanquefort/",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
